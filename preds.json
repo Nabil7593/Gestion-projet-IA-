@@ -1,0 +1,44 @@
+{
+  "image": "/workspace/test.jpg",
+  "weights": "/workspace/part_segmentation_model.pth",
+  "score_thresh": 0.3,
+  "num_preds": 2,
+  "preds": [
+    {
+      "cls_id": 2,
+      "label": "door",
+      "score": 0.9503410458564758,
+      "bbox_xyxy": [
+        3.4093358516693115,
+        161.95794677734375,
+        940.4963989257812,
+        718.5410766601562
+      ],
+      "mask_area": 367550
+    },
+    {
+      "cls_id": 2,
+      "label": "door",
+      "score": 0.44105958938598633,
+      "bbox_xyxy": [
+        15.715995788574219,
+        183.4720916748047,
+        517.7466430664062,
+        669.2777099609375
+      ],
+      "mask_area": 193331
+    }
+  ],
+  "coco_mapping_contig": {
+    "0": "headlamp",
+    "1": "rear_bumper",
+    "2": "door",
+    "3": "hood",
+    "4": "front_bumper"
+  },
+  "note": "Predictions filtered to COCO classes to ignore phantom class if any.",
+  "debug": {
+    "N_COCO": 5,
+    "K_model_num_classes": 6
+  }
+}

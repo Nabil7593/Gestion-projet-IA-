@@ -1,0 +1,70 @@
+{
+  "car": {
+    "make": "Volkswagen",
+    "model": "Golf",
+    "year": "2019"
+  },
+  "preds_file": "preds.json",
+  "min_score": 0.5,
+  "parts_detected": [
+    {
+      "label": "door",
+      "score": 0.9503410458564758
+    }
+  ],
+  "pricing": [
+    {
+      "part_label": "door",
+      "query": "prix porte Volkswagen Golf 2019 pièce auto",
+      "num_candidates": 39,
+      "estimate": 201.0,
+      "min": 5.0,
+      "max": 1779.62,
+      "median": 201.0,
+      "samples": [
+        {
+          "price": 8.0,
+          "source": "Acheter portes VOLKSWAGEN GOLF (www.pieceauto-discount.com)"
+        },
+        {
+          "price": 9.0,
+          "source": "Acheter portes VOLKSWAGEN GOLF (www.pieceauto-discount.com)"
+        },
+        {
+          "price": 201.0,
+          "source": "Acheter portes VOLKSWAGEN GOLF (www.pieceauto-discount.com)"
+        },
+        {
+          "price": 50.0,
+          "source": "Acheter portes VOLKSWAGEN GOLF (www.pieceauto-discount.com)"
+        },
+        {
+          "price": 5.0,
+          "source": "Acheter portes VOLKSWAGEN GOLF (www.pieceauto-discount.com)"
+        },
+        {
+          "price": 201.0,
+          "source": "Portes VOLKSWAGEN Golf VII (2017-2020) (www.kiauto.fr)"
+        },
+        {
+          "price": 202.0,
+          "source": "Portes VOLKSWAGEN Golf VII (2017-2020) (www.kiauto.fr)"
+        },
+        {
+          "price": 201.0,
+          "source": "Portes VOLKSWAGEN Golf VII (2017-2020) (www.kiauto.fr)"
+        },
+        {
+          "price": 201.0,
+          "source": "Portes VOLKSWAGEN Golf VII (2017-2020) (www.kiauto.fr)"
+        },
+        {
+          "price": 201.0,
+          "source": "Portes VOLKSWAGEN Golf VII (2017-2020) (www.kiauto.fr)"
+        }
+      ]
+    }
+  ],
+  "total_estimate": 201.0,
+  "currency": "EUR"
+}
